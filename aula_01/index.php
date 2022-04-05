@@ -5,7 +5,11 @@
 	<meta charset="utf-8">
 	<title>Minha página Teste</title>
 </head>
-<body>
-
-</body>
+	<body>
+		<p>
+			<?php
+			echo "Olá mundo";			
+			?>
+	 	</p>
+	</body>
 </html>>
