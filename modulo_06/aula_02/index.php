@@ -1,7 +1,7 @@
 <?php 
 
 
-	//arrays multidimensionais
+	// arrays multidimensionais
 
 	
 	$arr2 = array(array('Thiago','Andrade'), array(29,30));
