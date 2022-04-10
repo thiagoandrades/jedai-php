@@ -7,14 +7,15 @@
 </head>
 <body>
 	<?php 
-		$nome = @$GET_['nome'];
-		$email = @$GET_['email'];
 
-		echo $nome;
-		echo $email;
-
+		if (isset($_POST['acao'])) {
+				$nome = $_POST['nome'];
+				$email = $_POST['email'];
+				echo $nome;
+				echo $email;
+		}
 	 ?>
-	<form>
+	<form method="post">
 		<input type="text" name="nome">
 		<input type="text" name="email">
 		<input type="submit" name="acao" value="enviar">
