@@ -6,7 +6,7 @@
 
 	$nome = 'Thiago';
 
-	if ($nome == 'Ze') {
+	if ($nome == 'Zezinho') {
 		echo 'Tudo certo';
 	} else {
 		die('script encerrado');
