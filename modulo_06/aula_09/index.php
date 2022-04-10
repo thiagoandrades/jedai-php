@@ -6,7 +6,8 @@
 	<title>Formulário PHP</title>
 </head>
 <body>
-	<?php 
+	
+	/*<?php 
 
 		if (isset($_POST['acao'])) {
 				$nome = $_POST['nome'];
@@ -14,7 +15,10 @@
 				echo $nome;
 				echo $email;
 		}
-	 ?>
+	 ?>*/
+
+
+
 	<form method="post">
 		<input type="text" name="nome">
 		<input type="text" name="email">
